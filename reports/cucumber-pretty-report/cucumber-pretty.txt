@@ -40,7 +40,7 @@ Feature: Login Feature
       	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
       	at com.jayway.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:114)
       	at com.jayway.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:114)
-      	at ApplicationDataTest.DataVariableTest.i_enter_the_correct_UserName_and_Password(DataVariableTest.java:96)
+      	at ApplicationDataTest.DataVariableTest.i_enter_the_correct_UserName_and_Password(DataVariableTest.java:95)
       	at ✽.When I enter the correct UserName and Password(terms.feature:7)
       [0m
     [36mThen [0m[36mI should be able to see the HomePage[0m      [90m# DataVariableTest.i_should_be_able_to_see_the_HomePage()[0m

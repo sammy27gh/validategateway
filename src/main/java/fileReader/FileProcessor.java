@@ -20,9 +20,9 @@ public class FileProcessor<T> implements IFileProcessor<T>
 		HeaderColumnNameTranslateMappingStrategy<T> beanStrategy = new HeaderColumnNameTranslateMappingStrategy<T>();
 		beanStrategy.setType(t); 
 		beanStrategy.setColumnMapping(headerColumnMap);
-		CsvToBean<T> csvToBean = new CsvToBean<T>();
-		CSVReader reader = null;
-		List<T> beanList = null;
+		CsvToBean<T> csvToBean = new CsvToBean<T>();// csv to bean variable holds the bean variable 
+		CSVReader reader = null; // this variable holds the reading that is done.
+		List<T> beanList = null; //Beanlist will hold parsing the reading to the java file. 
 		try 
 		{
 			reader = new CSVReader(new FileReader(fileName));
